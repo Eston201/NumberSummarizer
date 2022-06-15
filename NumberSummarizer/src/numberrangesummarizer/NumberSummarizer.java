@@ -54,6 +54,7 @@ public class NumberSummarizer implements NumberRangeSummarizer {
 			}
 			prev = curr;
 		}
+		
 		if (isSeries) {
 			summary.append("-").append(prev);
 		}
